@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.google.com/')
+
+
+
+
+WebUI.setText(findTestObject('Page_Google/input__Text'), 'Katalon Studio')
+WebUI.click(findTestObject('Page_Google/img_Google'))
+
+WebUI.click(findTestObject('Page_Google/input_SearchButton'))
+
+WebUI.verifyMatch(WebUI.getWindowTitle(),"katalon studio - Google Search", false)
+
+
+
+WebUI.closeBrowser()
+

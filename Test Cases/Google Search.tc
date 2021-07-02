@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Testcase1</name>
+   <name>Google Search</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e8ebe66a-68be-4c49-aee9-7095c7a1797c</testCaseGuid>
