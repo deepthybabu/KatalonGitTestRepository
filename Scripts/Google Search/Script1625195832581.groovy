@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Page_Google/img_Google'))
 
 WebUI.click(findTestObject('Page_Google/input_SearchButton'))
 
-WebUI.verifyMatch(WebUI.getWindowTitle(),"katalon studio - Google Search", false)
+WebUI.verifyMatch(WebUI.getWindowTitle(),"Katalon Studio - Google Search", false)
 
 
 
